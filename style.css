@@ -1,0 +1,101 @@
+body{
+	font-size: 20px;
+	font-family: Tahoma;
+	text-align: center;
+	background-color: #F4F4F4;
+}
+
+h2{
+	background: linear-gradient(0.50turn, #0A4247, #199FAB);
+	padding: 30px 0;
+  	margin: 0;
+  	color: white;
+  	text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+  	font-size: 32px;
+  	font-weight: bold;
+  	text-align: center;
+}
+	
+p{
+	color: black;
+	font-size: 15px;
+	text-align: center;
+}
+a{
+	color: #fff;
+}
+a:hover{
+color: white;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  max-height: 225px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+  text-align: center;
+}
+
+.banner p {
+  font-size: 30px;
+  color: #268087;
+  opacity: .9;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+  font-weight: bolder;
+}
+
+#fotter {
+	background-color: black;
+	margin-top: 70px;
+	text-align: center;
+	color: #bbb;
+}
+#fotter a{
+	text-align: center;
+	color: #bbb;
+	font-size: 20px;
+}
+#fotter a:hover{
+	color: white;
+}
+.rrss{
+	color: #bbb;
+	font-size: 12px;
+	text-align: center;
+}
+.card{
+	text-align: justify-all;
+	border-color: #0A4247;
+	margin: 5px;
+}
+#cierre{
+	font-size:25px;
+	font-weight: bolder;
+	color: #41576E;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+.linksimple a{
+	color:black;
+}
+.btn-primary{
+	color: white;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+button {
+	text-align: center;
+	margin-top:10px;
+}
