@@ -19,4 +19,16 @@ document.addEventListener("DOMContentLoaded", () =>{
 	Tel.addEventListener("change", checkInput)
 	area.addEventListener("change", checkInput)
 	problem.addEventListener("change", checkInput)
-})
+}) //todo esto seria reemplazado por lo de abajo
+
+function validate(){
+	if(document.form.email.value === ""){
+		alert('Por favor ingresar una dirección de email');
+		document.form.email.focus();
+		return false;
+	}
+
+	//acá irian todas las demas validaciones
+	return true;
+
+}
